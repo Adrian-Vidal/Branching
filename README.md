@@ -3,20 +3,20 @@
 Examples of common git commands. Also practice dealing
 with branching and resolving merge conflicts. 
 
-Stuff added in main branch.
-More main stuff.
-
 ### General Commands
 * 'git init' - initialize local git repo in current
 working directory
 * 'git add filename' - stage 'filename' for commit
 * 'git commit -m msg' - commit state file into local repo
+* 'git clone url' - clone remote repo 'url' to local
+working directory
 
 ### Information Commands
 * 'git status' - show status of local repo
 * 'git log' - list commit history of current branch
 * 'git log --oneline' - list commit history (compact
 format)
+* 'git config --list' - list local repo config settings
 
 ### Branching Commands
 * 'git branch' - list local branches
@@ -33,4 +33,3 @@ to remote branch 'branchName'
 * 'git pull origin branchName' - pull and merge remote branch
 'branchName' with current local branch
 
-other stuff added in main.
