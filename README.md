@@ -33,3 +33,27 @@ to remote branch 'branchName'
 * 'git pull origin branchName' - pull and merge remote branch
 'branchName' with current local branch
 
+## Workflow:
+1. Pull latest remote main into local main
+	```
+	git pull origin main
+	```
+1. Branch from updated local main
+	```
+	git checkout -b myBranch
+	```
+1. Work in local branch, committing frequently
+1. When ready to merge, pull remote 'main' into local
+branch (must commit first)
+	```
+	git pull origin main
+	```
+
+	* Fix any merge conflicts, then commit
+1. Push to remote branch
+	```
+	git push origin myBranch
+	```
+1. Create pull request
+1. Merge pull request
+
