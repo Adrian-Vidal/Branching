@@ -3,6 +3,8 @@
 Examples of common git commands. Also practice dealing
 with branching and resolving merge conflicts. 
 
+Stuff added here in newBranch.
+
 ### General Commands
 * 'git init' - initialize local git repo in current
 working directory
@@ -14,6 +16,7 @@ working directory
 * 'git log' - list commit history of current branch
 * 'git log --oneline' - list commit history (compact
 format)
+
 
 ### Branching Commands
 * 'git branch' - list local branches
@@ -29,3 +32,6 @@ alias 'origin'
 to remote branch 'branchName'
 * 'git pull origin branchName' - pull and merge remote branch
 'branchName' with current local branch
+
+newBranch stuff
+more stuff from newBranch
