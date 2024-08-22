@@ -11,3 +11,7 @@ working directory
 * 'git log' - list commit history of current branch
 * 'git log --oneline' - list commit history (compact
 format)
+
+### Branching Commands
+* 'git branch' - list local branches
+* 'git checkout branchName' - switch to branch 'branchName' 
